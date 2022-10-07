@@ -9,11 +9,13 @@ h1{
 
 h2{
 
-    color:rgb(42, 106, 143)
+    color:rgb(0, 162, 255)
 }
 
-p{
+nav {
 
-    color:rgb(0, 238, 255)
+    text-align: center; 
+
+background-color: lightblue;
 
 }
