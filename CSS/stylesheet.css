@@ -1,31 +1,22 @@
-body{
- background-color:rgb(136, 0, 255)
+body {
+  background-color:  #edddd0;
+  font-family: "Montserrat", sans-serif;
 }
 
-h1{
-
-    color:rgb(0, 162, 255)
+h1 {
+  color: #334259;
 }
 
-h2{
-
-    color:rgb(0, 162, 255)
+h2 {
+  color: #334259;
 }
 
 nav {
+  text-align: center;
 
-    text-align: center; 
-
-background-color: lightblue;
-
+  background-color: #db5048;
 }
 
-
-#heading{
-
-    font-family: "Montserrat", sans-serif; 
-
-
-
-
+#heading {
+  font-family: "Montserrat", sans-serif;
 }
