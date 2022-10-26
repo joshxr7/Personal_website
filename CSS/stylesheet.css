@@ -5,18 +5,23 @@ body {
 
 h1 {
   color: #334259;
+  background-color: #A6CAD4;
 }
-
-h2 {
+h2{
   color: #334259;
 }
 
 nav {
   text-align: center;
 
-  background-color: #db5048;
+  background-color: #A6CAD4;
 }
 
 #heading {
   font-family: "Montserrat", sans-serif;
+}
+
+footer{
+  background-color: #A6CAD4;
+  text-align: center;
 }
