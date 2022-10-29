@@ -1,27 +1,73 @@
 body {
   background-color:  #edddd0;
   font-family: "Montserrat", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr ;
+
 }
 
 h1 {
   color: #334259;
-  background-color: #A6CAD4;
+  text-align: center;
+  grid-column: 1/3;
+
+
 }
+header{
+
+background-color: #A6CAD4;
+
+}
+
+
 h2{
   color: #334259;
+  grid-column: 1/3;
 }
 
 nav {
   text-align: center;
-
   background-color: #A6CAD4;
+  
 }
 
 #heading {
   font-family: "Montserrat", sans-serif;
+  
 }
 
 footer{
   background-color: #A6CAD4;
   text-align: center;
+  grid-column: 1/3 ;
+  grid-row: 4/4;
+  
+}
+.article{
+
+display: flex;
+flex-basis: 500px;
+order: 2;
+
+
+}
+.container{
+
+grid-column: 1/3;
+grid-row: 2/3;
+
+
+}
+
+.information{
+  grid-column: 1/3;
+  grid-row: 3/4;
+  
+}
+
+.image{
+  order: 2;
+  
+
 }
