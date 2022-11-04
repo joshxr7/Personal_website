@@ -22,12 +22,6 @@ nav {
   text-align: center;
   background-color: #a6cad4;
 }
-
-footer {
-  background-color: #a6cad4;
-  text-align: center;
-  order: 2;
-}
 article {
   order: 1;
   justify-content: space-evenly;
@@ -36,6 +30,12 @@ article {
   grid-template-rows: 1fr;
 
   grid-auto-rows: 100px;
+}
+
+footer {
+  background-color: #a6cad4;
+  text-align: center;
+  order: 2;
 }
 
 img {
@@ -53,13 +53,20 @@ img {
   grid-row: 2/2;
 }
 
-@media(min-width:600px)
-{
+.description{
 
-.course{
-
-    flex-direction: column;
-    padding: 25px;
+  grid-column: 3/3;
+  grid-row: 1/2;
 }
 
+@media screen and (max-width: 600px) {
+  .container-courses {
+      display: flex;
+      flex-basis: 10em;
+      flex-direction: column;
+      min-width: 2vh;
+  }
+  .container-courses p {
+      margin-top: 0;
+  }
 }
