@@ -1,16 +1,14 @@
 body {
   background-color: #edddd0;
   display: grid;
-  grid-template-columns: 5fr 2fr;
-  grid-template-rows: 3fr 3fr;
-
+  grid-template-columns: 6fr 2fr;
+  grid-template-rows: 3fr;
 }
 
 h1 {
   color: #334259;
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  
 }
 header {
   background-color: #a6cad4;
@@ -23,19 +21,14 @@ h2 {
 }
 
 nav {
-  text-align: center;
+ 
   background-color: #a6cad4;
   display: flex;
-  flex-direction: column;
-  grid-column: 1/4;
-
-}
-
-article {
-  grid-column: 1;
+  flex-direction: row;
+  justify-content: center;
   
+  grid-column: 1/4;
 }
-
 
 footer {
   background-color: #a6cad4;
@@ -43,33 +36,49 @@ footer {
   grid-column: 1/4;
 }
 
-.container{
-
+.container {
   grid-column: 1;
   grid-row: 3;
- 
 }
 
-.image{
+.image {
   grid-column: 3;
   grid-row: 3;
- 
 }
 
-.information{
+.information {
   grid-column: 1;
   grid-row: 4;
 }
 
+.class-courses{
 
-@media screen and (max-width: 600px) {
-  .container-courses {
+  grid-column: 1/4;
+  
+
+  
+}
+
+.class-course-p{
+
+display: flex;
+justify-content: space-evenly ;
+
+
+}
+
+@media (max-width: 600px) {
+  .courses {
       display: flex;
-      flex-basis: 10em;
-      flex-direction: column;
-      min-width: 2vh;
+      flex-direction: row;
+      
   }
-  .container-courses p {
-      margin-top: 0;
-  }
+
+nav{
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+
 }
