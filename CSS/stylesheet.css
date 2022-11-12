@@ -59,6 +59,12 @@ footer {
   
 }
 
+.webtech{
+
+  display: grid;
+  grid: 2;
+}
+
 .class-course-p{
 
 display: flex;
@@ -79,6 +85,8 @@ nav{
   align-items: center;
  
 }
-
+.class-course-p{
+ justify-content: flex-end;
+}
 
 }
