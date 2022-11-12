@@ -13,7 +13,21 @@ do {
 
 } while (input.length != 4 || isNaN(String(input)));
 
-let courseNum = courseList.code
-let courseChar = courseList.name
 
 
+for (let i of courseList) {
+  
+  if(courseList[i] = (input)){
+    
+    console.log(`Yes I am taking this course: ${courseList[i]} `)
+
+  }
+
+  else{
+  
+    courseList.push(input, null);
+     console.log(`Success`);
+    break;
+    
+  }
+}
