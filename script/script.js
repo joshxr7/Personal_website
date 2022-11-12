@@ -6,4 +6,14 @@ const courseList = [
 ]
 
 
+let input = ""
+do {
+  input = prompt("Type a 4 digit code for your class");
+  console.log(input);
+
+} while (input.length != 4 || isNaN(String(input)));
+
+let courseNum = courseList.code
+let courseChar = courseList.name
+
 
